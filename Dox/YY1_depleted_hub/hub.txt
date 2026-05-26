@@ -1,0 +1,5 @@
+hub mm10_YY1_depleted_hub_DOX
+shortLabel mm10_YY1_depleted_hub_DOX
+longLabel mm10_YY1_depleted_hub_DOX
+genomesFile genomes.txt
+email x.zou23@lms.mrc.ac.uk

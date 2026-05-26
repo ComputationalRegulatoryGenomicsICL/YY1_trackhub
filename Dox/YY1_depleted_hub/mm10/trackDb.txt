@@ -1,0 +1,115 @@
+
+
+track minus
+shortLabel minus
+longLabel minus
+type bigWig
+autoScale on
+visibility full
+compositeTrack on
+
+    track chr_control.minus
+    parent minus on
+    bigDataUrl CAGE/chr_control.minus.bigWig
+    shortLabel chr_control.minus
+    longLabel chr_control.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track chr_Dox.minus
+    parent minus on
+    bigDataUrl CAGE/chr_Dox.minus.bigWig
+    shortLabel chr_Dox.minus
+    longLabel chr_Dox.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot_control.minus
+    parent minus on
+    bigDataUrl CAGE/tot_control.minus.bigWig
+    shortLabel tot_control.minus
+    longLabel tot_control.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot_Dox.minus
+    parent minus on
+    bigDataUrl CAGE/tot_Dox.minus.bigWig
+    shortLabel tot_Dox.minus
+    longLabel tot_Dox.minus
+    type bigWig
+    color 0,0,255
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+
+track plus
+shortLabel plus
+longLabel plus
+type bigWig
+autoScale on
+visibility full
+compositeTrack on
+
+    track chr_control.plus
+    parent plus on
+    bigDataUrl CAGE/chr_control.plus.bigWig
+    shortLabel chr_control.plus
+    longLabel chr_control.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track chr_Dox.plus
+    parent plus on
+    bigDataUrl CAGE/chr_Dox.plus.bigWig
+    shortLabel chr_Dox.plus
+    longLabel chr_Dox.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot_control.plus
+    parent plus on
+    bigDataUrl CAGE/tot_control.plus.bigWig
+    shortLabel tot_control.plus
+    longLabel tot_control.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
+    track tot_Dox.plus
+    parent plus on
+    bigDataUrl CAGE/tot_Dox.plus.bigWig
+    shortLabel tot_Dox.plus
+    longLabel tot_Dox.plus
+    type bigWig
+    color 255,0,0
+    visibility full
+    maxHeightPixels 100:32:8
+    autoscale group
+    autoScale on
+
